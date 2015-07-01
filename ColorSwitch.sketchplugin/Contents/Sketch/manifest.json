@@ -1,0 +1,129 @@
+{
+  "name": "Color Switch",
+  "description": "Quickly change border and fills colors from pre-set color palette.",
+  "author": "Luis Martinez",
+  "homepage": "",
+  "version": 1.0,
+  "identifier": "com.example.sketch.color-change",
+  "updateURL": "",
+  "compatibleVersion": 3,
+  "bundleVersion": 1,
+  "commands": [
+    {
+      "name": "Color 1",
+      "identifier": "color1",
+      "shortcut": "ctrl 1",
+      "script": "script.js",
+      "handler": "color1"
+    },
+    {
+      "name": "Color 2",
+      "identifier": "color2",
+      "shortcut": "ctrl 2",
+      "script": "script.js",
+      "handler": "color2"
+    },
+    {
+      "name": "Color 3",
+      "identifier": "color3",
+      "shortcut": "ctrl 3",
+      "script": "script.js",
+      "handler": "color3"
+    },
+    {
+      "name": "Color 4",
+      "identifier": "color4",
+      "shortcut": "ctrl 4",
+      "script": "script.js",
+      "handler": "color4"
+    },
+    {
+      "name": "Color 5",
+      "identifier": "color5",
+      "shortcut": "ctrl 5",
+      "script": "script.js",
+      "handler": "color5"
+    },
+    {
+      "name": "Color 6",
+      "identifier": "color6",
+      "shortcut": "ctrl 6",
+      "script": "script.js",
+      "handler": "color6"
+    },
+    {
+      "name": "Color 7",
+      "identifier": "color7",
+      "shortcut": "ctrl 7",
+      "script": "script.js",
+      "handler": "color7"
+    },
+    {
+      "name": "Color Border 1",
+      "identifier": "colorb1",
+      "shortcut": "ctrl cmd 1",
+      "script": "script.js",
+      "handler": "colorb1"
+    },
+    {
+      "name": "Color Border 2",
+      "identifier": "colorb2",
+      "shortcut": "ctrl cmd 2",
+      "script": "script.js",
+      "handler": "colorb2"
+    },
+    {
+      "name": "Color Border 3",
+      "identifier": "colorb3",
+      "shortcut": "ctrl cmd 3",
+      "script": "script.js",
+      "handler": "colorb3"
+    },
+    {
+      "name": "Color Border 4",
+      "identifier": "colorb4",
+      "shortcut": "ctrl cmd 4",
+      "script": "script.js",
+      "handler": "colorb4"
+    },
+    {
+      "name": "Color Border 5",
+      "identifier": "colorb5",
+      "shortcut": "ctrl cmd 5",
+      "script": "script.js",
+      "handler": "colorb5"
+    },
+    {
+      "name": "Color Border 6",
+      "identifier": "colorb6",
+      "shortcut": "ctrl cmd 6",
+      "script": "script.js",
+      "handler": "colorb6"
+    },
+    {
+      "name": "Color Border 7",
+      "identifier": "colorb7",
+      "shortcut": "ctrl cmd 7",
+      "script": "script.js",
+      "handler": "colorb7"
+    }
+  ],
+  "menu": {
+    "items": [
+      "color1",
+      "color2",
+      "color3",
+      "color4",
+      "color5",
+      "color6",
+      "color7",
+      "colorb1",
+      "colorb2",
+      "colorb3",
+      "colorb4",
+      "colorb5",
+      "colorb6",
+      "colorb7"
+    ]
+  }
+}
