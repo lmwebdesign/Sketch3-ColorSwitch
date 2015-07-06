@@ -1,8 +1,7 @@
 # Sketch3-ColorSwitch
 Sketch 3 plugin for quickly switching border and fill colors with pre-defined palette.
 
-Keyboard shortcuts are mapped as followed to these hex color values:
-
+Shortcut Legend - CTRL + 9
 To change fill color use CTRL + NUMBER and to change border color use CTRL + CMD + NUMBER
 > 1. #cc0000
 > 2. #2060ca
