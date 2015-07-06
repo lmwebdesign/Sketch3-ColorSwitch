@@ -1,51 +1,70 @@
 @import 'colors.js'; 
 
-var color1 = function(context) {
-    colorFill(context, c1);
+var fill1 = function(c) {
+    colorFill(c, palette.c1);
 };
-var color2 = function(context) {
-    colorFill(context, c2);
+var fill2 = function(c) {
+    colorFill(c, palette.c2);
 };
-var color3 = function(context) {
-    colorFill(context, c3);
+var fill3 = function(c) {
+    colorFill(c, palette.c3);
 };
-var color4 = function(context) {
-    colorFill(context, c4);
+var fill4 = function(c) {
+    colorFill(c, palette.c4);
 };
-var color5 = function(context) {
-    colorFill(context, c5);
+var fill5 = function(c) {
+    colorFill(c, palette.c5);
 };
-var color6 = function(context) {
-    colorFill(context, c6);
+var fill6 = function(c) {
+    colorFill(c, palette.c6);
 };
-var color7 = function(context) {
-    colorFill(context, c7);
+var fill7 = function(c) {
+    colorFill(c, palette.c7);
 };
-var colorb1 = function(context) {
-    colorBorder(context, c1);
-};
-var colorb2 = function(context) {
-    colorBorder(context, c2);
-};
-var colorb3 = function(context) {
-    colorBorder(context, c3);
-};
-var colorb4 = function(context) {
-    colorBorder(context, c4);
-};
-var colorb5 = function(context) {
-    colorBorder(context, c5);
-};
-var colorb6 = function(context) {
-    colorBorder(context, c6);
-};
-var colorb7 = function(context) {
-    colorBorder(context, c7);
+var fill8 = function(c) {
+    colorFill(c, palette.c8);
 };
 
+var border1 = function(c) {
+    colorBorder(c, palette.c1);
+};
+var border2 = function(c) {
+    colorBorder(c, palette.c2);
+};
+var border3 = function(c) {
+    colorBorder(c, palette.c3);
+};
+var border4 = function(c) {
+    colorBorder(c, palette.c4);
+};
+var border5 = function(c) {
+    colorBorder(c, palette.c5);
+};
+var border6 = function(c) {
+    colorBorder(c, palette.c6);
+};
+var border7 = function(c) {
+    colorBorder(c, palette.c7);
+};
+var legend = function(c) {
+    paletteLegend();
+};
+
+function paletteLegend(){
+    var app = NSApplication.sharedApplication();
+    var i=0;
+    var msg = '';
+    for(var prop in palette){
+        i++;
+        msg += "ctrl + "+i+" = "+palette[prop]+"\n";
+    }
+    msg += '\n Note: ctrl + cmd + # for border colors';
+    [app displayDialog:msg withTitle:'ColorSwitch Shortcuts'];
+}
 
 function colorBorder(cont,color){
    var selection = cont.selection;
+
     //iterate layers
     for(var i=0; i<selection.count(); i++){
         var layer = selection[i];

@@ -1,9 +1,10 @@
-var c1 = '#cc0000';
-var c2 = '#2060ca';
-var c3 = '#333333';
-var c3 = '#666666';
-var c4 = '#cccccc';
-var c5 = '#eeeeee';
-var c6 = '#fafafa';
-var c7 = '#008a44';
-
+var palette = {
+    c1 : '#cc0000', //red
+    c2 : '#2060ca', //navy
+    c3 : '#333333', //jet
+    c4 : '#666666', //davy-gray
+    c5 : '#cccccc', //cement
+    c6 : '#eeeeee', //white-smoke
+    c7 : '#fafafa', //ghost
+    c8 : '#008a44'  //green
+};

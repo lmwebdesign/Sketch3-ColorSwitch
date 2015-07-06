@@ -10,120 +10,143 @@
   "bundleVersion": 1,
   "commands": [
     {
-      "name": "Color 1",
-      "identifier": "color1",
+      "name": "1. #cc0000",
+      "identifier": "fill1",
       "shortcut": "ctrl 1",
       "script": "script.js",
-      "handler": "color1"
+      "handler": "fill1"
     },
     {
-      "name": "Color 2",
-      "identifier": "color2",
+      "name": "2. #2060ca",
+      "identifier": "fill2",
       "shortcut": "ctrl 2",
       "script": "script.js",
-      "handler": "color2"
+      "handler": "fill2"
     },
     {
-      "name": "Color 3",
-      "identifier": "color3",
+      "name": "3. #333333",
+      "identifier": "fill3",
       "shortcut": "ctrl 3",
       "script": "script.js",
-      "handler": "color3"
+      "handler": "fill3"
     },
     {
-      "name": "Color 4",
-      "identifier": "color4",
+      "name": "4. #666666",
+      "identifier": "fill4",
       "shortcut": "ctrl 4",
       "script": "script.js",
-      "handler": "color4"
+      "handler": "fill4"
     },
     {
-      "name": "Color 5",
-      "identifier": "color5",
+      "name": "5. #cccccc",
+      "identifier": "fill5",
       "shortcut": "ctrl 5",
       "script": "script.js",
-      "handler": "color5"
+      "handler": "fill5"
     },
     {
-      "name": "Color 6",
-      "identifier": "color6",
+      "name": "6. #eeeeee",
+      "identifier": "fill6",
       "shortcut": "ctrl 6",
       "script": "script.js",
-      "handler": "color6"
+      "handler": "fill6"
     },
     {
-      "name": "Color 7",
-      "identifier": "color7",
+      "name": "7. #fafafa)",
+      "identifier": "fill7",
       "shortcut": "ctrl 7",
       "script": "script.js",
-      "handler": "color7"
+      "handler": "fill7"
     },
     {
-      "name": "Color Border 1",
+      "name": "8. #008a44",
+      "identifier": "fill8",
+      "shortcut": "ctrl 8",
+      "script": "script.js",
+      "handler": "fill8"
+    },
+    {
+      "name": "border #cc0000",
       "identifier": "colorb1",
       "shortcut": "ctrl cmd 1",
       "script": "script.js",
-      "handler": "colorb1"
+      "handler": "border1"
     },
     {
-      "name": "Color Border 2",
+      "name": "border #2060ca",
       "identifier": "colorb2",
       "shortcut": "ctrl cmd 2",
       "script": "script.js",
-      "handler": "colorb2"
+      "handler": "border2"
     },
     {
-      "name": "Color Border 3",
+      "name": "border #333333",
       "identifier": "colorb3",
       "shortcut": "ctrl cmd 3",
       "script": "script.js",
-      "handler": "colorb3"
+      "handler": "border3"
     },
     {
-      "name": "Color Border 4",
+      "name": "border #666666",
       "identifier": "colorb4",
       "shortcut": "ctrl cmd 4",
       "script": "script.js",
-      "handler": "colorb4"
+      "handler": "border4"
     },
     {
-      "name": "Color Border 5",
+      "name": "border #cccccc",
       "identifier": "colorb5",
       "shortcut": "ctrl cmd 5",
       "script": "script.js",
-      "handler": "colorb5"
+      "handler": "border5"
     },
     {
-      "name": "Color Border 6",
+      "name": "border #eeeeee",
       "identifier": "colorb6",
       "shortcut": "ctrl cmd 6",
       "script": "script.js",
-      "handler": "colorb6"
+      "handler": "border6"
     },
     {
-      "name": "Color Border 7",
+      "name": "border #fafafa",
       "identifier": "colorb7",
       "shortcut": "ctrl cmd 7",
       "script": "script.js",
-      "handler": "colorb7"
+      "handler": "border7"
+    },
+    {
+      "name": "border #008a44",
+      "identifier": "colorb8",
+      "shortcut": "ctrl cmd 8",
+      "script": "script.js",
+      "handler": "border8"
+    },
+    {
+      "name": "1 View All Shortcuts",
+      "identifier": "shortcuts",
+      "shortcut": "ctrl 9",
+      "script": "script.js",
+      "handler": "legend"
     }
   ],
   "menu": {
     "items": [
-      "color1",
-      "color2",
-      "color3",
-      "color4",
-      "color5",
-      "color6",
-      "color7",
+      "fill1",
+      "fill2",
+      "fill3",
+      "fill4",
+      "fill5",
+      "fill6",
+      "fill7",
+      "fill8",
       "colorb1",
       "colorb2",
       "colorb3",
       "colorb4",
       "colorb5",
       "colorb6",
-      "colorb7"
+      "colorb7",
+      "shortcuts"
     ]
   }
 }
