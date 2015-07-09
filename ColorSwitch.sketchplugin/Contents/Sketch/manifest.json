@@ -66,6 +66,13 @@
       "handler": "fill8"
     },
     {
+      "name": "9. #ffffff",
+      "identifier": "fill9",
+      "shortcut": "ctrl 9",
+      "script": "script.js",
+      "handler": "fill9"
+    },
+    {
       "name": "border #cc0000",
       "identifier": "colorb1",
       "shortcut": "ctrl cmd 1",
@@ -122,9 +129,16 @@
       "handler": "border8"
     },
     {
+      "name": "border #ffffff",
+      "identifier": "colorb9",
+      "shortcut": "ctrl cmd 9",
+      "script": "script.js",
+      "handler": "border9"
+    },
+    {
       "name": "1 View All Shortcuts",
       "identifier": "shortcuts",
-      "shortcut": "ctrl 9",
+      "shortcut": "ctrl 0",
       "script": "script.js",
       "handler": "legend"
     }
@@ -139,6 +153,7 @@
       "fill6",
       "fill7",
       "fill8",
+      "fill9",
       "colorb1",
       "colorb2",
       "colorb3",
@@ -146,6 +161,8 @@
       "colorb5",
       "colorb6",
       "colorb7",
+      "colorb8",
+      "colorb9",
       "shortcuts"
     ]
   }

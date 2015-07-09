@@ -24,6 +24,9 @@ var fill7 = function(c) {
 var fill8 = function(c) {
     colorFill(c, palette.c8);
 };
+var fill9 = function(c) {
+    colorFill(c, palette.c9);
+};
 
 var border1 = function(c) {
     colorBorder(c, palette.c1);
@@ -46,6 +49,13 @@ var border6 = function(c) {
 var border7 = function(c) {
     colorBorder(c, palette.c7);
 };
+var border8 = function(c) {
+    colorBorder(c, palette.c8);
+};
+var border9 = function(c) {
+    colorBorder(c, palette.c9);
+};
+
 var legend = function(c) {
     paletteLegend();
 };
